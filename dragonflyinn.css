@@ -1,0 +1,330 @@
+html{
+  font-family: Playfair Display, Georgia, Times New Roman, Helvetica, Arial, sans-serif;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  background-color: #FFFACD;
+ 
+
+}
+
+.img-logo {
+	width: 300px;
+	position: relative;
+	margin: auto;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #68228B;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+
+}
+
+.topnav a:hover {
+  background-color: #AB82FF;
+  color: white;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  }
+
+
+h1 {
+	margin-top: -180px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: "Playfair Display","Georgia","Times New Roman",serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+}
+	
+
+h2 {
+	text-align: center;
+	font-family: "Playfair Display","Georgia","Times New Roman",serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+
+}
+
+
+
+#testbild {
+	background-image: url('Bilder/außen.png');
+	margin: 0 auto;
+	margin-top: -10px; 
+	width: 1087px;
+	height: 700px;
+	display: flex;
+	background-position: right;
+
+}
+
+h3 {
+	color: #68228B;
+	width: 1087px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+p {
+	position: relative;
+	color: #68228B;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	padding-left: 170px;
+	padding-right: 170px;
+	text-align: justify;
+	text-align-last: none;
+
+}
+
+
+.flex-container1 {
+  display: flex;
+}
+
+.flex-item1 {
+  background-color: #68228B;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 10px;
+  font-size: 12pt;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 1087px;
+
+}
+
+
+
+.img-karte {
+	position: relative;
+	padding-left: 165px;
+	display: flex;
+	
+}
+
+ .slidershow{
+
+  	width: 700px;
+  	height: 400px;
+  	overflow: hidden;
+  	margin-top: 50px;
+  	margin: auto;
+
+
+  }
+
+  .slidershowmiddle{
+
+  	padding-top: 300px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+
+
+  }
+
+.navigation{
+
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+
+}
+
+.bar{
+	width: 60px;
+	height: 15px;
+	background: #68228B;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.bar:hover{
+	background: #AB82FF;
+}
+
+input[name="r"]{
+
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+
+}
+
+.slide{
+	width: 20%;
+	transition: 0.6s;
+}
+
+.slide img{ 
+	height:100%;
+
+}
+
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+	margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+	margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+	margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+	margin-left: -80%;
+}
+
+#r6:checked ~ .s1{
+	margin-left: -100%;
+}
+
+#r7:checked ~ .s1{
+	margin-left: -120%;
+}
+
+#r8:checked ~ .s1{
+	margin-left: -140%;
+}
+
+#r9:checked ~ .s1{
+	margin-left: -160%;
+}
+
+#r10:checked ~ .s1{
+	margin-left: -180%;
+}
+
+table.kalender {
+	min-width: 700px;
+	margin: auto;
+	border-radius: 5px 5px 5px 5px;
+	overflow: hidden;
+	text-align: center;
+	background-color: #AB82FF;
+	color: white;
+}
+
+table.kalender thead.überschriftkalender tr th{
+	border-bottom: 2px solid #68228B;
+	font-weight: normal;
+}
+
+table.kalender thead.wochentage tr th{
+	font-weight: normal;
+}
+
+table.kalender tbody tr.frei{
+	background-color: #A2CD5A;
+	
+	
+}
+
+table.kalender tbody tr.belegt{
+	background-color: #68228B;
+	
+}
+
+table.kalender tbody tr.frei th{
+	font-weight: normal;
+}
+
+table.kalender tbody tr.belegt th{
+	font-weight: normal;
+}
+
+table.überuns {
+  width: 1150px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+#lorelai {
+	position: relative;
+	padding-left: 165px;
+	display: flex;
+}
+
+#sookie {
+	position: relative;
+	padding-left: 165px;
+	display: flex;
+}
+
+#michel {
+	position: relative;
+	padding-left: 165px;
+	display: flex;
+}
+
+
+
+.flex-container1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
